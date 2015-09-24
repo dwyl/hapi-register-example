@@ -12,7 +12,7 @@ var opts = {
 server.connection({ port: process.env.PORT });
 server.register([Inert, { register: require('hapi-register'), options:opts }], function (err) {
   if (err) { console.error('Failed to load plugin: ', err); }
-  console.log(__dirname + '/index.html');
+  // console.log(__dirname + '/index.html');
   server.route({
     method: 'GET',
     path: '/',
