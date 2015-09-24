@@ -9,7 +9,7 @@
   },
   "scripts": {
     "test": "tape",
-    "start":"node example/server.js"
+    "start": "node example/server.js"
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,7 @@
     "boom": "^2.9.0",
     "hapi": "^10.1.0",
     "hapi-register": "^1.0.9",
+    "inert": "^3.0.1",
     "joi": "^6.7.1",
     "redis-connection": "^2.0.0"
   }
