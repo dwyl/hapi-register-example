@@ -1,7 +1,12 @@
 var Boom        = require('boom');
 // var bcrypt      = require('bcrypt'); // see: https://github.com/nelsonic/bcrypt
 // var redisClient = require('redis-connection')();
-function register_handler(request, reply){
+function register_handler(request, reply, source, error) {
+  console.log(request.payload);
+  console.log(' - - - - - - - - - - - - - - - - - - - - -');
+  console.log(source)
+  console.log(' - - - - - - - - - - - - - - - - - - - - -');
+  console.log(arguments);
   return reply('welcome!');
   // redisClient.get(request.payload.email, function (err, reply) {
   //   if(err) { // error when if not already registered, register the person:
