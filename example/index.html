@@ -18,13 +18,29 @@
       </style>
       <login>
         <div>
-          <h1>Welcome! <i class="large material-icons">face</i> </h1>
+          <h3>Welcome to ACME Co! </h3>
             <br>
-            <h4> Please register!</h4>
+            <h4>Please register to use our awesome widgets!</h4>
           <hr style="margin:3em;">
-          <div>
-            <!-- <p class="font-size:2em;">No account yet? <a class="waves-effect waves-light btn-large blue darken-2" style="margin-left: 2em;" href="https://github.com/join">Create GitHub Account</a> </p> -->
-          </div>
+            <form class="col s12" action="/register" method="POST">
+              <div class="input-field col s6">
+                <input id="name" type="text" class="validate">
+                <label for="name">Name</label>
+              </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="email" type="email" class="validate">
+                    <label for="email">Email</label>
+                  </div>
+                </div>
+              <div class="row">
+                <!-- <div class="input-field col s12">
+                  <input id="password" type="password" class="validate">
+                  <label for="password">Password</label>
+                </div> -->
+                <button type="submit" class="green accent-4 btn"><i class="material-icons left">cloud</i>Register</button>
+
+            </form>
         </div>
       </login>
 </body></html>

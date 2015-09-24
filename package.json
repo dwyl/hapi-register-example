@@ -26,6 +26,11 @@
   },
   "homepage": "https://github.com/nelsonic/hapi-register-example#readme",
   "dependencies": {
-    "hapi-register": "^1.0.5"
+    "bcrypt": "^0.8.5",
+    "boom": "^2.9.0",
+    "hapi": "^10.1.0",
+    "hapi-register": "^1.0.9",
+    "joi": "^6.7.1",
+    "redis-connection": "^2.0.0"
   }
 }
