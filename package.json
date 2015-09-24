@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/nelsonic/hapi-register-example/issues"
   },
-  "homepage": "https://github.com/nelsonic/hapi-register-example#readme"
+  "homepage": "https://github.com/nelsonic/hapi-register-example#readme",
+  "dependencies": {
+    "hapi-register": "^1.0.5"
+  }
 }
