@@ -1,44 +1,30 @@
 <!DOCTYPE html>
 <html lang=”en-GB”>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Hapi Register Example</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-    <link rel="shortcut icon" href="http://www.dwyl.io/images/favicon.ico" type="image/x-icon" />
-    <!--FontAwesome-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  </head>
-  <body>
-
-    <section id="register-login">
-      <form id="login">
-        <div class="email fa fa-envelope-o">
-            <label class="sr-only" for="email">Email address</label>
-            <input type="email" required placeholder="Email Address" name="email" id="email"/>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Register</title>
+        <link rel="shortcut icon" href="https://www.dwyl.io/images/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+    <body class='center z-depth-2' style='margin-top:2em'>
+      <style>
+      .center {
+          margin: auto;
+          width: 90%;
+          /*border:3px solid #8AC007;*/
+          padding: 10px;
+      }
+      </style>
+      <login>
+        <div>
+          <h1>Welcome! <i class="large material-icons">face</i> </h1>
+            <br>
+            <h4> Please register!</h4>
+          <hr style="margin:3em;">
+          <div>
+            <!-- <p class="font-size:2em;">No account yet? <a class="waves-effect waves-light btn-large blue darken-2" style="margin-left: 2em;" href="https://github.com/join">Create GitHub Account</a> </p> -->
+          </div>
         </div>
-        <div class="pw fa fa-lock">
-            <label class="sr-only" for="password">Password</label>
-            <input type="password" placeholder=" Password" name="password" id="password"/>
-        </div>
-        <div id="login-button">
-          <button type="submit">Save your timers</button>
-        </div>
-      </form>
-    </section>
-
-<!-- HANDLEBARS TEMPLATE -->
-  <script id="timer_list_template" type="text/x-handlebars-template">
-    <li id="\{{id}}" class="timer-one-line">
-        <i class="fa fa-check-circle-o"></i>
-        <span class="timer-desc">\{{desc}}</span>
-        <span class="timer-time">\{{took}}</span>
-    </li>
-  </script>
-
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.min.js"></script>
-
-  </body>
-</html>
+      </login>
+</body></html>
