@@ -14,8 +14,8 @@
 We did not *find* an ***end-to-end*** solution+tutorial
 for registration in Hapi.js apps, so we wrote it.
 
-If *anything* is *unclear* in this or any of our other repos,
-please ***tell us***:
+`if` ***anything*** is ***unclear*** in this (*or any of our other repos*),
+***please tell us***:
 [![Join the chat at https://gitter.im/dwyl/chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dwyl/chat/)  
 
 
@@ -24,7 +24,7 @@ please ***tell us***:
 
 This repo is a *showcase* for how to use the
 [**hapi-register**](https://github.com/nelsonic/hapi-register) plugin
-for a simple (*yet complete*) web/app registration process.
+for a *simple* (*yet complete*) web/app registration process.
 
 
 ## Try it: https://hapi-reg.herokuapp.com/
@@ -71,3 +71,9 @@ Avoids Cross Site Scripting:
 
 Displays welcome message on successful registration:
 ![reg-success-1of2](https://cloud.githubusercontent.com/assets/194400/10267355/c7d8a31e-6a88-11e5-8bf9-3bb148e2d870.png)
+
+## Want *More*?
+
+If you would like to see this example *expanded*,
+please either [***create an issue***](https://github.com/nelsonic/hapi-register-example/issues)
+or [![Join the chat at https://gitter.im/dwyl/chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dwyl/chat/)
