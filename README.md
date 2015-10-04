@@ -1,13 +1,16 @@
-# hapi-register-example
+# `hapi-register` *example*
 
 [![Build Status](https://travis-ci.org/nelsonic/hapi-register-example.svg)](https://travis-ci.org/nelsonic/hapi-register-example)
 [![codecov.io](http://codecov.io/github/nelsonic/hapi-register-example/coverage.svg?branch=master)](http://codecov.io/github/nelsonic/hapi-register-example?branch=master)
+[![Code Climate](https://codeclimate.com/github/nelsonic/hapi-register-example/badges/gpa.svg)](https://codeclimate.com/github/nelsonic/hapi-register-example)
 [![Dependency Status](https://david-dm.org/nelsonic/hapi-register-example.svg)](https://david-dm.org/nelsonic/hapi-register-example)
 
 
-This example is a showcase for using the
+This repo is a showcase for how to use the
 [**hapi-register**](https://github.com/nelsonic/hapi-register) plugin
 for a simple (*yet complete*) web/app registration process.
+
+## Try it: https://hapi-reg.herokuapp.com/
 
 ![register form](https://cloud.githubusercontent.com/assets/194400/10197712/d6cc0348-6790-11e5-86ca-dc218bdffd54.png)
 
