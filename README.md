@@ -1,11 +1,11 @@
 # `hapi-register` *example*
 
-[![Build Status](https://travis-ci.org/nelsonic/hapi-register-example.svg)](https://travis-ci.org/nelsonic/hapi-register-example)
-[![codecov.io](http://codecov.io/github/nelsonic/hapi-register-example/coverage.svg?branch=master)](http://codecov.io/github/nelsonic/hapi-register-example?branch=master)
-[![Code Climate](https://codeclimate.com/github/nelsonic/hapi-register-example/badges/gpa.svg)](https://codeclimate.com/github/nelsonic/hapi-register-example)
-[![Dependency Status](https://david-dm.org/nelsonic/hapi-register-example.svg)](https://david-dm.org/nelsonic/hapi-register-example)
-[![devDependency Status](https://david-dm.org/nelsonic/hapi-register-example/dev-status.svg)](https://david-dm.org/nelsonic/hapi-register-example#info=devDependencies)
-[![HitCount](https://hitt.herokuapp.com/nelsonic/hapi-register-example.svg)](https://github.com/nelsonic/hapi-register-example)
+[![Build Status](https://travis-ci.org/dwyl/hapi-register-example.svg)](https://travis-ci.org/dwyl/hapi-register-example)
+[![codecov.io](http://codecov.io/github/dwyl/hapi-register-example/coverage.svg?branch=master)](http://codecov.io/github/dwyl/hapi-register-example?branch=master)
+[![Code Climate](https://codeclimate.com/github/dwyl/hapi-register-example/badges/gpa.svg)](https://codeclimate.com/github/dwyl/hapi-register-example)
+[![Dependency Status](https://david-dm.org/dwyl/hapi-register-example.svg)](https://david-dm.org/dwyl/hapi-register-example)
+[![devDependency Status](https://david-dm.org/dwyl/hapi-register-example/dev-status.svg)](https://david-dm.org/dwyl/hapi-register-example#info=devDependencies)
+[![HitCount](https://hitt.herokuapp.com/dwyl/hapi-register-example.svg)](https://github.com/dwyl/hapi-register-example)
 
 ## Why?
 
@@ -38,7 +38,7 @@ The best way to get started is to run this example *locally*.
 #### 1. Clone the repo:
 
 ```sh
-git clone git@github.com:nelsonic/hapi-register-example.git
+git clone git@github.com:dwyl/hapi-register-example.git
 ```
 #### 2. Install *Dependencies* from NPM
 
@@ -75,5 +75,5 @@ Displays welcome message on successful registration:
 ## Want *More*?
 
 If you would like to see this example *expanded*,
-please either [***create an issue***](https://github.com/nelsonic/hapi-register-example/issues)
-or [![Join the chat at https://gitter.im/dwyl/chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dwyl/chat/)
+please either [***create an issue***](https://github.com/dwyl/hapi-register-example/issues)
+with a *specific request* or [![Join the chat at https://gitter.im/dwyl/chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dwyl/chat/)
