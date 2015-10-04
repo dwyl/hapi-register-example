@@ -6,11 +6,24 @@ for a simple (*yet complete*) web/app registration process.
 
 ![register form](https://cloud.githubusercontent.com/assets/194400/10197712/d6cc0348-6790-11e5-86ca-dc218bdffd54.png)
 
-To run this example *locally*, you will need to export
-a `PORT` environment variable:
+To run this example *locally*, simply:
+
+#### 1. Clone the repo:
 
 ```sh
-export PORT=8000
+git clone git@github.com:nelsonic/hapi-register-example.git
+```
+#### 2. Install *Dependencies* from NPM
+
+```sh
+npm install
 ```
 
-> 
+#### 3. Run the Server
+
+```sh
+npm start
+```
+
+That's it.  
+Now, hack to heart's content!
