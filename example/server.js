@@ -1,12 +1,13 @@
 var Hapi   = require('hapi'); https://github.com/nelsonic/learn-hapi
 var Vision = require('vision');
-var server = new Hapi.Server({ debug: {"request": ["error", "uncaught"]} })
+var server = new Hapi.Server(); // { debug: {"request": ["error", "uncaught"]} })
 
 var custom_fields  = require('./model');      // fields required to register
 var custom_handler = require('./controller'); // handler for registration
 var opts = {
   fields: custom_fields,
-  handler: custom_handler
+  handler: custom_handler,
+  fail_action_handler: custom_handler
 };
 
 server.connection({ port: process.env.PORT });
