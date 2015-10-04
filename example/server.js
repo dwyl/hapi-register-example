@@ -1,6 +1,7 @@
 var Hapi   = require('hapi'); https://github.com/nelsonic/learn-hapi
 var Vision = require('vision');
 var server = new Hapi.Server(); // { debug: {"request": ["error", "uncaught"]} })
+var assert = require('assert');
 
 var custom_fields  = require('./model');      // fields required to register
 var custom_handler = require('./controller'); // handler for registration
@@ -13,8 +14,7 @@ var opts = {
 server.connection({ port: process.env.PORT });
 server.register([Vision,
   { register: require('hapi-register'), options:opts }], function (err) {
-  if (err) { console.error('Failed to load plugin: ', err); }
-
+  assert(!err, 'Failed to load plugin: ', err); // FATAL ERROR!
   server.views({
       engines: { html: require('handlebars') },
       path: __dirname +'/'
