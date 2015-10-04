@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/nelsonic/hapi-register-example.svg)](https://travis-ci.org/nelsonic/hapi-register-example)
 [![codecov.io](http://codecov.io/github/nelsonic/hapi-register-example/coverage.svg?branch=master)](http://codecov.io/github/nelsonic/hapi-register-example?branch=master)
+[![Dependency Status](https://david-dm.org/nelsonic/hapi-register-example.svg)](https://david-dm.org/nelsonic/hapi-register-example)
 
 This example is a showcase for using the
 [**hapi-register**](https://github.com/nelsonic/hapi-register) plugin
