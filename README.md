@@ -1,22 +1,44 @@
-# hapi-register-example
+# `hapi-register` *example*
 
-[![Build Status](https://travis-ci.org/nelsonic/hapi-register-example.svg)](https://travis-ci.org/nelsonic/hapi-register-example)
-[![codecov.io](http://codecov.io/github/nelsonic/hapi-register-example/coverage.svg?branch=master)](http://codecov.io/github/nelsonic/hapi-register-example?branch=master)
-[![Dependency Status](https://david-dm.org/nelsonic/hapi-register-example.svg)](https://david-dm.org/nelsonic/hapi-register-example)
+[![Build Status](https://travis-ci.org/dwyl/hapi-register-example.svg)](https://travis-ci.org/dwyl/hapi-register-example)
+[![codecov.io](http://codecov.io/github/dwyl/hapi-register-example/coverage.svg?branch=master)](http://codecov.io/github/dwyl/hapi-register-example?branch=master)
+[![Code Climate](https://codeclimate.com/github/dwyl/hapi-register-example/badges/gpa.svg)](https://codeclimate.com/github/dwyl/hapi-register-example)
+[![Dependency Status](https://david-dm.org/dwyl/hapi-register-example.svg)](https://david-dm.org/dwyl/hapi-register-example)
+[![devDependency Status](https://david-dm.org/dwyl/hapi-register-example/dev-status.svg)](https://david-dm.org/dwyl/hapi-register-example#info=devDependencies)
+[![HitCount](https://hitt.herokuapp.com/dwyl/hapi-register-example.svg)](https://github.com/dwyl/hapi-register-example)
+
+## Why?
+
+> "*I hear and I forget. I see and I remember. I do and I understand.*" ~ Confucius
+
+We did not *find* an ***end-to-end*** solution+tutorial
+for registration in Hapi.js apps, so we wrote it.
+
+`if` ***anything*** is ***unclear*** in this (*or any of our other repos*),
+***please tell us***:
+[![Join the chat at https://gitter.im/dwyl/chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dwyl/chat/)  
 
 
-This example is a showcase for using the
+
+## What?
+
+This repo is a *showcase* for how to use the
 [**hapi-register**](https://github.com/nelsonic/hapi-register) plugin
-for a simple (*yet complete*) web/app registration process.
+for a *simple* (*yet complete*) web/app registration process.
+
+
+## Try it: https://hapi-reg.herokuapp.com/
 
 ![register form](https://cloud.githubusercontent.com/assets/194400/10197712/d6cc0348-6790-11e5-86ca-dc218bdffd54.png)
 
-To run this example *locally*, simply:
+## How?
+
+The best way to get started is to run this example *locally*.
 
 #### 1. Clone the repo:
 
 ```sh
-git clone git@github.com:nelsonic/hapi-register-example.git
+git clone git@github.com:dwyl/hapi-register-example.git
 ```
 #### 2. Install *Dependencies* from NPM
 
@@ -49,3 +71,9 @@ Avoids Cross Site Scripting:
 
 Displays welcome message on successful registration:
 ![reg-success-1of2](https://cloud.githubusercontent.com/assets/194400/10267355/c7d8a31e-6a88-11e5-8bf9-3bb148e2d870.png)
+
+## Want *More*?
+
+If you would like to see this example *expanded*,
+please either [***create an issue***](https://github.com/dwyl/hapi-register-example/issues)
+with a *specific request* or [![Join the chat at https://gitter.im/dwyl/chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dwyl/chat/)

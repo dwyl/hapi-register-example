@@ -1,6 +1,6 @@
 {
   "name": "hapi-register-example",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Example of building a registration flow using hapi-register plugin for Hapi.js",
   "main": "index.js",
   "directories": {
