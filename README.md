@@ -19,7 +19,6 @@ for registration in Hapi.js apps, so we wrote it.
 [![Join the chat at https://gitter.im/dwyl/chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/dwyl/chat/)  
 
 
-
 ## What?
 
 This repo is a *showcase* for how to use the
