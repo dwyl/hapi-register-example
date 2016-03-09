@@ -37,7 +37,7 @@ The best way to get started is to run this example *locally*.
 #### 1. Clone the repo:
 
 ```sh
-git clone git@github.com:dwyl/hapi-register-example.git
+git clone https://github.com/dwyl/hapi-register-example.git
 ```
 #### 2. Install *Dependencies* from NPM
 
